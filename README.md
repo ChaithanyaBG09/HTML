@@ -27,7 +27,7 @@
             <li>How To Style Boyfriend Jeans</li>
             <li>When Print Is Too Much</li>
             <li>The Overalls Trend</li>
-            <li>Fall’s It Color: Blush</li>
+            <li>Fall’s It Color:Blush</li>
          </ul>
   <!-- Contact Section -->
   <div id='contact'>
