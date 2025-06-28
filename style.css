@@ -1,84 +1,83 @@
+* {
+  box-sizing:border-box;
+  margin:100;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
 body {
-  background: #EEE;
-  margin: 0;
-  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
 }
 
-/* Navigation */
-.navigation {
-  box-sizing: border-box;
-  background-color: #3587A4;
-  overflow: auto;
-  padding: 18px 50px;
-  position: relative;
-  top: 0;
+.login-container {
+  background-color: pink;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   width: 100%;
-  z-index: 999;
+  max-width: 400px;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #4B0082; /* Indigo shade of purple */
 }
 
-li {
-  color: #FFF;
-  display: inline-block;
-  font-family: 'Oxygen', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  margin: 0;
-  padding: 20px 18px 10px 18px;
-  text-transform: uppercase;
+.form-group {
+  margin-bottom: 20px;
 }
 
-.active {
-  color: #88CCF1;
+.form-group label {
+  display:flex;
+  margin-bottom: 8px;
+  color: #6a1b9a; /* Deep purple text */
 }
 
-/* Search Box */
-.search {
-  background-color: #FFF;
-  border: 1px solid #DDD;
-  border-radius: 3px;
-  color: #AAA;
-  padding: 20px;
-  margin: 50px auto 0px auto;
-  width: 77%;
-  font-family: 'Lato', sans-serif;
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #b39ddb; /* Light purple border */
+  border-radius: 8px;
+  outline: 100px;
+  transition: border-color 0.3s;
 }
 
-/* Table Styling */
-table {
-  margin: 20px auto;
-  width: 80%;
-  border-collapse: collapse;
+.form-group input:focus {
+  border-color: rgb(24, 24, 23); /* Rich purple on focus */
 }
 
-thead th {
-  background: #88CCF1;
-  color: #FFF;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #8e24aa; /* Primary purple */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-tr {
-  background: #F4F7F8;
-  border-bottom: 1px solid #FFF;
+.login-button:hover {
+  background-color: #6a1b9a; /* Darker on hover */
 }
 
-th, td {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  padding: 20px;
-  font-size: 18px;
-  text-align: left;
-  border: 1px solid #DDD;
+.bottom-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
 }
 
-tr:hover {
-  background-color: #e0f7fa;
+.bottom-text a {
+  color: #8e24aa;
+  text-decoration: none;
+}
+
+.bottom-text a:hover {
+  text-decoration: underline;
 }
